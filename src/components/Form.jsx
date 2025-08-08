@@ -73,7 +73,7 @@ const Form = () => {
         setLoading(true); 
         setSubmitText("Sending...");
         try {
-            const response = await axios.post('http://localhost:3000/equiry', data);
+            const response = await axios.post('https://growly-backend-nkch.onrender.com/equiry', data);
             if (response.status === 200) {
                 setSuccess(true);
 
