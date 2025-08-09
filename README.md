@@ -2,11 +2,11 @@
 
 ## Overview
 
-Growly is a modern landing page for an AI-powered ad creative platform. Users can learn about Growly's features, view interactive 3D scenes, and book a free demo by submitting an enquiry form. The project includes a React frontend with interactive UI and a Node.js backend for handling demo requests via email.
+Growly is a modern, interactive landing page for an AI-powered ad creative platform. Users can explore Growly's features, interact with 3D scenes, and request a free demo via an enquiry form. The project consists of a React frontend and a Node.js backend for handling demo requests.
 
 ## Stack Used
 
-- **Frontend:** React, Vite, Framer Motion, Valtio, Axios, Three.js (for 3D scenes)
+- **Frontend:** React, Vite, Framer Motion, Valtio, Axios, Three.js
 - **Styling:** Tailwind CSS, Custom CSS
 - **Backend:** Node.js, Express, Nodemailer
 - **Deployment:** Render (backend), Vercel/Netlify (frontend)
@@ -17,8 +17,35 @@ Growly is a modern landing page for an AI-powered ad creative platform. Users ca
 
 - Node.js & npm installed
 
-### 1. Clone the repository
+### Steps
 
-```sh
-git clone <your-repo-url>
-cd Assessment2
+1. **Clone the repository**
+    ```sh
+    git clone https://github.com/AdityaGodara/Growly--3D-landing-page----Frontend
+    ```
+
+2. **Install dependencies for frontend**
+    ```sh
+    npm install
+    ```
+
+3. **Clone backend repo - Install dependencies for backend**
+    ```sh
+    git clone https://github.com/AdityaGodara/Growly---Backend
+    npm install
+    ```
+
+4. **Start the backend server**
+    ```sh
+    npm run dev
+    ```
+
+5. **Start the frontend**
+    ```sh
+    npm run dev
+    ```
+
+## Hosted Links
+
+- **Frontend:** [https://adityagrowly.vercel.app](https://adityagrowly.vercel.app) *(replace with your actual link)*
+- **Backend:** [https://growly-backend-nkch.onrender.com](https://growly-backend-nkch.onrender.com) *
